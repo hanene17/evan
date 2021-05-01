@@ -1,0 +1,24 @@
+.red {
+
+color: red;
+   
+  }
+  .title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ 
+ .App-src{
+    height: 40vmin;
+ }
+ .App-pub{
+    height: 40vmin;  
+ }
+  
+ body{
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    background-color: rgb(105, 105, 206);
+    margin-left: 1em;
+  }
