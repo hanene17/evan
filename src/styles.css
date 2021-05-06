@@ -14,11 +14,20 @@ color: red;
     height: 40vmin;  
  }
   
- body{
-    display: flex;
-    flex-direction: column;
+ html, body{
+   
+    position: relative;
+    background: url(../src/MyImage/image.jpg) no-repeat center center fixed;
+     background-size: cover;
+     height: 100%;
+     overflow: auto;
+     line-height: 160%;
+     position: relative;
+  }
+  .App{
+   
+text-align: center;
   
-    justify-content: center;
-    background-color: rgb(105, 105, 206);
-    margin-left: 1em;
+   flex-direction:column-reverse;
+  
   }

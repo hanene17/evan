@@ -7,12 +7,12 @@ import imageInSrc from './imageInSrc.jpg';
 
 
 function App() {
-  let YourName = "Amylee ❤️❤️";
+  let YourName = "AmyLee";
   return (
  
-    <div style= {{ border: "solid 1px black", maxWidth: "100vw"}}> 
+    <div className="App" style= {{ border: "solid 1px black", maxWidth: "100vw"}}> 
     
-    <h1 className="red title">{YourName} </h1> <br/>
+    <h1 className="red title">{YourName} <span>❤️❤️</span> </h1> <br/>
  
 
  <img src={imageInSrc} className="App-src"  alt="imageInSrc"/> <br/>
