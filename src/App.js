@@ -3,6 +3,9 @@
 import "./styles.css";
 //import ReactPlayer from 'react-player';
 import imageInSrc from './imageInSrc.jpg';
+import 'bootstrap/dist/css/bootstrap.css';
+
+
 
 
 
